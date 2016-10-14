@@ -1,0 +1,1 @@
+keytool -genkey -v -keystore c:\android\release\release.keystore -alias androidbook -storepass paxxword -keypass paxxword -keyalg RSA -validity 14000

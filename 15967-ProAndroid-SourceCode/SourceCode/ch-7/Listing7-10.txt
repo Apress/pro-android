@@ -1,0 +1,1 @@
+keytool -list -alias androiddebugkey -keystore "C:\Documents and Settings\sh\ Local Settings\Application Data\Android\ debug.keystore" -storepass android -keypass android

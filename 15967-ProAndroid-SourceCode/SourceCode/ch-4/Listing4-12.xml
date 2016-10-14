@@ -1,0 +1,3 @@
+<ToggleButton android:id="@+id/cctglBtn" android:layout_
+	width="wrap_content" android:layout_height="wrap_content"
+	android:text="Toggle Button"/>

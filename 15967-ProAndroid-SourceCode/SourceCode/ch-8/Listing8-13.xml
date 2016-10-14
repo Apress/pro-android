@@ -1,0 +1,5 @@
+<service android:name="StockQuoteService">
+	<intent-filter>
+		<action android:name="com.syh.IStockQuoteService" />
+	</intent-filter>
+</service>

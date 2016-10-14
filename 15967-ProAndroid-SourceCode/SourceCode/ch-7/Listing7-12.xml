@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/zoomin" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="+" />
+		<Button android:id="@+id/zoomout" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="-" />
+		<Button android:id="@+id/sat" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Satellite" />
+		<Button android:id="@+id/street" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Street" />
+		<Button android:id="@+id/traffic" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Traffic" />
+	</LinearLayout>
+	<com.google.android.maps.MapView
+		android:id="@+id/mapview" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:apiKey="07vhL0usFXryRakmo2A4t8aKViWwKyGJGEDqpdg" />
+</LinearLayout>

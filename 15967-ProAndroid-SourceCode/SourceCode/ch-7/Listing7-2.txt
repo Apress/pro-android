@@ -1,0 +1,1 @@
+jarsigner -keystore c:\android\release\release.keystore -storepass paxxword -keypass paxxword c:\android\release\myapp.apk androidbook

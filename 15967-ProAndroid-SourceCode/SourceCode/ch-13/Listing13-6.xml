@@ -1,0 +1,4 @@
+<activity android:name=".OpenGL15TestHarnessActivity"
+                    android:label="OpenGL 15 Test Harness"/>
+
+
